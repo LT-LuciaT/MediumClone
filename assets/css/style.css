@@ -78,6 +78,13 @@ header {
   background-color: #ffc017;
   border-bottom: 1px solid #191919;
   padding-top: 4em;
+  position: relative;
+  overflow: hidden;
+}
+.hero img {
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 .banner {
   max-width: 70%;
