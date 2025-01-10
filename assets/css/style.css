@@ -1,0 +1,104 @@
+/* <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900*/
+
+.roboto-uniquifier {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.spectral-light {
+  font-family: "Spectral", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.spectral-regular {
+  font-family: "Spectral", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.spectral-medium {
+  font-family: "Spectral", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.spectral-bold {
+  font-family: "Spectral", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.spectral-extrabold {
+  font-family: "Spectral", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.spectral-regular-italic {
+  font-family: "Spectral", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/*navigationbar*/
+header {
+  background-color: #ffc017;
+  border-bottom: 1px solid #191919;
+}
+.header {
+  max-width: 70%;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 0em 1em 0em;
+}
+
+.navbar ul li {
+  font-family: "Roboto", serif;
+  font-size: 12px;
+  display: inline-block;
+  padding: 0em 1em;
+}
+.navbar button {
+  border-radius: 25px;
+  border: none;
+  background-color: #191919;
+  color: white;
+  padding: 6px 10px;
+  font-size: 12px;
+}
+
+/*hero*/
+
+.hero {
+  background-color: #ffc017;
+  border-bottom: 1px solid #191919;
+  padding-top: 4em;
+}
+.banner {
+  max-width: 70%;
+  margin-inline: auto;
+  font-family: "Roboto", serif;
+}
+h1 {
+  font-family: "Spectral", serif;
+  font-size: 70px;
+}
+h2 {
+  margin-top: 1em;
+  font-size: 15px;
+}
+.banner button {
+  border-radius: 25px;
+  border: none;
+  background-color: #191919;
+  color: white;
+  padding: 6px 10px;
+  font-size: 15px;
+  margin-top: 2em;
+  margin-bottom: 4em;
+}
