@@ -97,7 +97,7 @@ h1 {
 }
 h2 {
   margin-top: 1em;
-  font-size: 15px;
+  font-size: 20px;
 }
 .banner button {
   border-radius: 25px;
@@ -108,4 +108,41 @@ h2 {
   font-size: 15px;
   margin-top: 2em;
   margin-bottom: 4em;
+}
+.trending {
+  max-width: 70%;
+  margin-inline: auto;
+  font-family: "Roboto", serif;
+}
+.container {
+  display: flex;
+}
+.numero {
+  font-size: 20px;
+  opacity: 40%;
+  font-weight: bold;
+  padding: 1em;
+}
+.profilo {
+  padding: 1em;
+  display: flex;
+  font-size: 12px;
+  gap: 5px;
+}
+.pfp {
+  border-radius: 50px;
+  overflow: hidden;
+  width: 30px;
+  height: 30px;
+}
+.pfp img {
+  width: 100%;
+}
+h4 {
+  font-weight: bold;
+}
+.data {
+  display: flex;
+  justify-content: space-between;
+  opacity: 40%;
 }
