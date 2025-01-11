@@ -446,5 +446,35 @@
         </div>
       </section>
     </main>
+    <footer>
+
+  <script>
+    const header = document.querySelector('header');
+    const hero = document.querySelector('.hero');
+    function checkScroll() {
+      if (window.scrollY > hero.offsetHeight) {
+        header.classList.add('header-scrolled');
+      } else {
+        header.classList.remove('header-scrolled');
+      }
+    }
+    window.addEventListener('scroll', checkScroll);
+  </script>
+    </footer>
+    <footer>
+
+  <script>
+    const header = document.querySelector('header');
+    const hero = document.querySelector('.hero');
+    function checkScroll() {
+      if (window.scrollY > hero.offsetHeight) {
+        header.classList.add('header-scrolled');
+      } else {
+        header.classList.remove('header-scrolled');
+      }
+    }
+    window.addEventListener('scroll', checkScroll);
+  </script>
+    </footer>
   </body>
 </html>
