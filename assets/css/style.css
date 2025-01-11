@@ -170,6 +170,106 @@ h4 {
 .data {
   display: flex;
   justify-content: space-between;
-  opacity: 40%;
+  color: #9f9f9f;
   font-size: 11px;
+}
+
+/*main*/
+
+main {
+  width: 70%;
+  margin-inline: auto;
+  font-family: "Roboto", serif;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article {
+  width: 65%;
+  display: flex;
+  gap: 3em;
+  margin: 2em 0em;
+  justify-content: space-between;
+}
+.destra {
+  width: 250px;
+  height: 130px;
+  overflow: hidden;
+}
+.destra img {
+  width: 100%;
+}
+h3 {
+  font-size: 13px;
+  font-weight: bold;
+  margin: 5px 0px;
+}
+.sinistra {
+  width: 500px;
+}
+.sinistra p {
+  color: #9f9f9f;
+  margin: 5px 0px;
+}
+.data2 {
+  display: flex;
+  color: #9f9f9f;
+  font-size: 11px;
+  gap: 4px;
+}
+.data2 li {
+  display: inline-block;
+}
+.data2 button {
+  border: none;
+  border-radius: 50px;
+  background-color: #e6e6e6;
+  color: #9f9f9f;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+/*aside*/
+section {
+  display: flex;
+  justify-content: space-between;
+}
+aside {
+  align-self: stretch;
+  margin-top: 1.5em;
+}
+.asideTitle {
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+.buttons {
+  display: flex;
+  border-bottom: 1px solid #bebebe;
+  flex-wrap: wrap;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+}
+.buttons button {
+  color: #9f9f9f;
+  background-color: white;
+  border: 1px solid #bebebe;
+  background: none;
+  outline: none;
+  border-radius: 5px;
+  outline: none;
+  padding: 4px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+.link li {
+  display: inline-block;
+  text-decoration: none;
+  line-height: 8px;
+}
+.link a {
+  text-decoration: none;
+  color: #9f9f9f;
+  padding-right: 8px;
+  line-height: 2em;
 }
