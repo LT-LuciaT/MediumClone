@@ -43,7 +43,6 @@
   font-weight: 400;
   font-style: italic;
 }
-
 body {
   font-size: 13px;
 }
@@ -51,16 +50,26 @@ body {
 header {
   background-color: #ffc017;
   border-bottom: 1px solid #191919;
+  height: 40px;
+  position: sticky;
+  z-index: 1000;
+  top: 0;
 }
 
 .NV {
-  max-width: 70%;
-  margin-inline: auto;
-  padding: 1em;
+  max-width: 100%;
 }
 .header {
   display: flex;
   justify-content: space-between;
+  padding-top: 10px;
+  height: 100%;
+}
+
+.navbar ul {
+  padding: 0;
+  align-items: center;
+  margin: 0;
 }
 .navbar ul li {
   font-family: "Roboto", serif;
@@ -92,6 +101,7 @@ header {
   right: 0;
   top: 0;
 }
+
 .banner {
   max-width: 70%;
   margin-inline: auto;
