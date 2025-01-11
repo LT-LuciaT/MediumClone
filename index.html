@@ -416,65 +416,52 @@
           </div>
         </div>
         <div class="aside">
-          <div class="asideTitle">
-            <h3>Discover more of what matters to you</h3>
-          </div>
-          <div class="buttons">
-            <button>Programming</button>
-            <button>Data Science</button>
-            <button>Technology</button>
-            <button>Self Improvement</button>
-            <button>Writing</button>
-            <button>Relationships</button>
-            <button>Machine Learning</button>
-            <button>Productivity</button>
-            <button>Politics</button>
-          </div>
-          <div class="link">
-            <ul>
-              <li><a href="#" target="_blank">Help</a></li>
-              <li><a href="#" target="_blank">Status</a></li>
-              <li><a href="#" target="_blank">Writers</a></li>
-              <li><a href="#" target="_blank">Blog</a></li>
-              <li><a href="#" target="_blank">Careers</a></li>
-              <li><a href="#" target="_blank">Privacy</a></l.aii>
-              <li><a href="#" target="_blank">Terms</a></li>
-              <li><a href="#" target="_blank">About</a></li>
-              <li><a href="#" target="_blank">Knowable</a></li>
-            </ul>
-          </div>
+          <aside>
+            <div class="asideTitle">
+              <h3>Discover more of what matters to you</h3>
+            </div>
+            <div class="buttons">
+              <button>Programming</button>
+              <button>Data Science</button>
+              <button>Technology</button>
+              <button>Self Improvement</button>
+              <button>Writing</button>
+              <button>Relationships</button>
+              <button>Machine Learning</button>
+              <button>Productivity</button>
+              <button>Politics</button>
+            </div>
+            <div class="link">
+              <ul>
+                <li><a href="#" target="_blank">Help</a></li>
+                <li><a href="#" target="_blank">Status</a></li>
+                <li><a href="#" target="_blank">Writers</a></li>
+                <li><a href="#" target="_blank">Blog</a></li>
+                <li><a href="#" target="_blank">Careers</a></li>
+                <li><a href="#" target="_blank">Privacy</a></l.aii>
+                <li><a href="#" target="_blank">Terms</a></li>
+                <li><a href="#" target="_blank">About</a></li>
+                <li><a href="#" target="_blank">Knowable</a></li>
+              </ul>
+            </div>
+          </aside>
+         
         </div>
       </section>
     </main>
     <footer>
-
-  <script>
-    const header = document.querySelector('header');
-    const hero = document.querySelector('.hero');
-    function checkScroll() {
-      if (window.scrollY > hero.offsetHeight) {
-        header.classList.add('header-scrolled');
-      } else {
-        header.classList.remove('header-scrolled');
-      }
-    }
-    window.addEventListener('scroll', checkScroll);
-  </script>
-    </footer>
-    <footer>
-
-  <script>
-    const header = document.querySelector('header');
-    const hero = document.querySelector('.hero');
-    function checkScroll() {
-      if (window.scrollY > hero.offsetHeight) {
-        header.classList.add('header-scrolled');
-      } else {
-        header.classList.remove('header-scrolled');
-      }
-    }
-    window.addEventListener('scroll', checkScroll);
-  </script>
+      <script>
+          const header = document.querySelector('header');
+          const hero = document.querySelector('.hero');
+          function checkScroll() {
+            if (window.scrollY > hero.offsetHeight) {
+              header.classList.add('header-scrolled');
+            } else {
+              header.classList.remove('header-scrolled');
+            }
+          }
+          window.addEventListener('scroll', checkScroll);
+        </script>
     </footer>
   </body>
 </html>
