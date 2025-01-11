@@ -52,19 +52,22 @@ header {
   background-color: #ffc017;
   border-bottom: 1px solid #191919;
 }
-.header {
+
+.NV {
   max-width: 70%;
   margin-inline: auto;
+  padding: 1em;
+}
+.header {
   display: flex;
   justify-content: space-between;
-  padding: 1em 0em 1em 0em;
 }
-
 .navbar ul li {
   font-family: "Roboto", serif;
   font-size: 12px;
   display: inline-block;
   padding: 0em 1em;
+  justify-content: end;
 }
 .navbar button {
   border-radius: 25px;
@@ -235,7 +238,7 @@ section {
   display: flex;
   justify-content: space-between;
 }
-aside {
+.aside {
   align-self: stretch;
   margin-top: 1.5em;
 }
